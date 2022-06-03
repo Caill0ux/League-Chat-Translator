@@ -1,0 +1,25 @@
+﻿.grid{
+    display: grid;
+    width: 40%;
+    height: auto;
+}
+.BackGround{
+    margin: 0;
+    grid-row: 1/1; 
+    grid-column: 1/1;
+    z-index: -1;
+}
+
+.blurBox:hover{
+    background: #9c2780;
+    filter: blur(3px);
+}
+h1{
+    font-size: 18px;
+}
+.text{
+    grid-row: 1/1; 
+    grid-column: 1/1;
+    margin: 2px 2px ;
+    background: #00000000;
+}
